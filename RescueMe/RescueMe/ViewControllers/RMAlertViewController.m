@@ -98,7 +98,7 @@
 
 - (IBAction)btnCallPoliceTapped:(id)sender
 {
-    NSString *stringUrl = [NSString stringWithFormat:@"tel:%@", @"510-900-9211"];
+    NSString *stringUrl = [NSString stringWithFormat:@"tel:%@", @"000-111-2222"];
     NSURL *url = [[NSURL alloc] initWithString:[stringUrl stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
 
     [[UIApplication sharedApplication] openURL:url];
